@@ -12,7 +12,7 @@ function App() {
   return (
     <>
       <Mainbar setCategory={setCategory} />
-      <Newsboard category={category} />
+      {/* <Newsboard category={category} /> */}
     </>
   );
 }
